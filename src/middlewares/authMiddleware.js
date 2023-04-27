@@ -26,7 +26,7 @@ module.exports = {
 			req.user = user;
 			next();
 		} catch (error) {
-			next(new NoAuthorizedError('Not authorized3'));
+			next(new NoAuthorizedError('Not authorized'));
 		}
 	},
 };
